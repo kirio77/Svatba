@@ -44,7 +44,7 @@
       var form = $(this);
       var str = form.serialize();
       function sent(){
-        $('#div_' + type).html("<div id='form_send_message'>Thank you :)</div>", 1500);
+        $('#div_' + type).html("<div id='form_send_message'>Děkujeme :)</div>", 1500);
       }
       $.ajax({
         type: "POST",
@@ -121,7 +121,7 @@
     });
 
     /*CountDown*/
-    $('.married_coundown').countdown({until: new Date("Aug 17, 2018 14:00:00")});
+    $('.married_coundown').countdown({until: new Date("Aug 17, 2019 14:00:00")});
 
     /*OWL Carousel in Our Story*/
     $(".story_wrapper").owlCarousel({
